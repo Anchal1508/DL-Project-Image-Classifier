@@ -1,7 +1,6 @@
 import streamlit as st
 import tensorflow as tf
 from PIL import Image, ImageOps
-import cv2
 import numpy as np
 from keras.preprocessing import image
 from tensorflow.keras.preprocessing.image import load_img
@@ -27,9 +26,8 @@ file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
 def import_and_predict(image_data):
     size = (32,32)    
     image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
-    image = np.asarray(image)
-    img = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)   
-    img_reshape = img[np.newaxis,...]
+    image = np.asarray(image)  
+    img_reshape = image[np.newaxis,...]
     result = model.predict(img_reshape)
     return result
 
