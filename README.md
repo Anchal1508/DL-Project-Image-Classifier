@@ -7,7 +7,7 @@
 
 • This repository consists of files required to deploy a ___Deep Learning Web App___ created with ___Streamlit___ on ___Heroku___ platform.
 
-• For this project I have used Kaggle dataset name as CIFAR-10. The WebApp is created to predict and categories different images in thier respective categories. This model is developed using Convolution Neural Network.
+• For this project I have used CIFAR-10 dataset from Kaggle. The WebApp is created to predict and categories different images in thier respective categories. This model is developed using Convolution Neural Network.
 
 • Folder link for __Code__, __Algorithms used__ and __Accuracy__ of the model.. Click the link mentioned below for the same:<br />
 Link:  [github.com/Anchal1508/DL-Project-Image-Classifier](https://github.com/Anchal1508/DL-Project-Image-Classifier)
